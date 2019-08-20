@@ -5,11 +5,11 @@ Languages
 
 In an effort to appeal to the most amount of people, we are developing all of these problem sets in the following languages:
 
-  - JavaScript w/ es6 syntax
-  - Ruby
-  - Java
-  - Elixir
-  - (Python) if steven wants to.
+- JavaScript w/ es6 syntax
+- Ruby
+- Java
+- Elixir
+- (Python) if steven wants to.
 
 ## Algorithms
 
