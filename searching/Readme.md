@@ -4,17 +4,21 @@
 
 In computer science, a search algorithm is any algorithm which solves the search problem, namely, to retrieve information stored within some data structure, or calculated in the search space of a problem domain, either with discrete or continuous values. Specific applications of search algorithms include:
 
-  - Linear Search
-  - Binary Search
-  - A*
-  - Database Index Lookup
-  - ...many more!
+- Linear Search
+- Binary Search
+- A*
+- Database Index Lookup
+- ...many more!
 
 In a nutshell, this is simply an algorithm that looks through a dataset for a specific item and returns that item's location.
 
 ## Linear Search
 
-In computer science, a linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched. The list must be ordered for this search method be be most viable, although, it may handle unordered data sets as well. This yields a BigO notation of O(n)
+In computer science, a linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched. The list must be ordered for this search method be be most viable, although, it may handle unordered data sets as well.
+
+## Substring Search
+
+This exercise builds on the knowledge obtained through the Linear Search Exercise.
 
 ## Binary Search
 
