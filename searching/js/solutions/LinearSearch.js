@@ -1,6 +1,9 @@
 "use strict";
 
-const { orderedSequentialArray } = require("../helpers/ArrayBuilder");
+const {
+    orderedSequentialArray,
+    orderedRandomArray
+} = require("../helpers/ArrayBuilder");
 
 const LinearSearch = (array, element) => {
     for (let i = 0; i < array.length; i++) {
@@ -10,7 +13,11 @@ const LinearSearch = (array, element) => {
 };
 
 const testArray = orderedSequentialArray(100);
+const testArray2 = orderedRandomArray(100, 100);
 
 console.log(LinearSearch(testArray, 2)); // => 2
 console.log(LinearSearch(testArray, 97)); // => 97
 console.log(LinearSearch(testArray, 101)); // => -1
+
+console.log(LinearSearch(testArray2, 18)); // => ?
+console.log(LinearSearch(testArray2, 109)); // => -1
