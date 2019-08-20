@@ -12,9 +12,13 @@
   IsBoolean(0) => false
 */
 
+/* Change the code below this line */
+
 const IsBoolean = value => {
-    return value;
+  return value;
 };
+
+/* Change the code above this line */
 
 console.log(IsBoolean(true)); // => true
 console.log(IsBoolean("true")); // => false
