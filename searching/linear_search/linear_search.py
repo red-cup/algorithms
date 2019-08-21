@@ -1,13 +1,17 @@
 
-from '../helpers/' import 'list_builders'
+def ordered_sequential_list(min_num, max_num):
+    return list(range(min_num, max_num+1))
+
 
 List = ordered_sequential_list(0,100)
 
-def linear_search(List, element):
-    if element not in List:
+
+def linear_search(List, number):
+    if number not in List:
         return -1
     else:
-        return List.index(element)
+        return List.index(number)
+
 
 print(linear_search(List, 2))
 print(linear_search(List, 97))
