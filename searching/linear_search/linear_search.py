@@ -1,5 +1,5 @@
-
-from '../helpers/' import 'list_builders'
+def ordered_sequential_list(min_num, max_num):
+    return list(range(min_num, max_num+1))
 
 List = ordered_sequential_list(0,100)
 
