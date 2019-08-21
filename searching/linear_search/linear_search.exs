@@ -15,7 +15,7 @@ end
 # This imports the helper file
 Code.require_file("../helpers/list_builder.exs", __DIR__)
 
-test_list_1 = Helpers.ListBuilder.ordered_sequential_array(0, 100)
+test_list_1 = Helpers.ListBuilder.ordered_sequential_list(0, 100)
 
 # => 2
 IO.inspect(LinearSearch.linear_search(test_list_1, 2))

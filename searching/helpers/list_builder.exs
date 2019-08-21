@@ -1,20 +1,18 @@
 defmodule Helpers.ListBuilder do
-  def ordered_sequential_array(min, max) when min > max, do: []
+  def ordered_sequential_list(min, max) when min > max, do: []
 
-  def ordered_sequential_array(min, max), do: Enum.map(min..max, & &1)
+  def ordered_sequential_list(min, max), do: Enum.map(min..max, & &1)
 
-  #   def self.ordered_sequential_array(min: 0, max: 100)
-  #   return [] if min > max
-  #   (min..max).to_a
-  # end
+  def ordered_random_list(min, max) when min > max, do: []
 
-  # def self.ordered_random_array(min: 0, max: 100)
-  #   return [] if min > max
-  #   (min..max).map {|x| rand(min..max)}.sort
-  # end
+  def ordered_random_list(min, max) do
+    Enum.map(min..max, fn _ -> Enum.random(min..max) end)
+    |> Enum.sort()
+  end
 
-  # def self.unordered_random_array(min: 0, max: 100)
-  #   return [] if min > max
-  #   (min..max).map {|x| rand(min..max)}
-  # end
+  def unordered_random_list(min, max) when min > max, do: []
+
+  def unordered_random_list(min, max) do
+    Enum.map(min..max, fn _ -> Enum.random(min..max) end)
+  end
 end
