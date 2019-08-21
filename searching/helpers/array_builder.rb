@@ -1,4 +1,3 @@
-
 module ArrayHelper  
   def self.ordered_sequential_array(min: 0, max: 100)
     return [] if min > max
