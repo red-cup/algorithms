@@ -17,11 +17,11 @@ Code.require_file("../helpers/list_builder.exs", __DIR__)
 
 test_list_1 = Helpers.ListBuilder.ordered_sequential_list(0, 100)
 
-# => 2
 IO.inspect(LinearSearch.linear_search(test_list_1, 2))
+# => 2
 
-# => 97
 IO.inspect(LinearSearch.linear_search(test_list_1, 97))
+# => 97
 
-# => -1
 IO.inspect(LinearSearch.linear_search(test_list_1, 101))
+# => -1
