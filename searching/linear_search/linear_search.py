@@ -1,10 +1,13 @@
 
+
 # helper function to build list
 def ordered_sequential_list(min_num, max_num):
     return list(range(min_num, max_num+1))
-git
+
+
 # create list with min and max of your choice
 List = ordered_sequential_list(0,100)
+
 
 # give list and the number you want to search for
 def linear_search(List, number):
@@ -12,6 +15,7 @@ def linear_search(List, number):
         return -1
     else:
         return List.index(number)
+
 
 # testing function
 print(linear_search(List, 2))
