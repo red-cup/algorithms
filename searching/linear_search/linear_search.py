@@ -9,8 +9,8 @@ def linear_search(List, element):
     else:
         return List.index(element)
 
-print(linear_search(List, 2))
-print(linear_search(List, 97))
-print(linear_search(List, 101))
+print(linear_search(List, 2)) # => 2
+print(linear_search(List, 97)) # => 97
+print(linear_search(List, 101)) # => 101
 
 
