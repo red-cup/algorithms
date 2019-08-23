@@ -9,7 +9,7 @@ In an effort to appeal to the most amount of people, we are developing all of th
 - Ruby
 - Elixir
 - Java
-- (Python) if steven wants to.
+- Python
 
 ## Algorithms
 
@@ -24,7 +24,7 @@ Algorithms are unambiguous specifications for performing calculation, data proce
 - Ruby `2.6.3`
 - Elixir `1.9.1`
 - Java TBD
-- Python TBD
+- Python `3.7.x`
 
 ## Recommended Tools
 
@@ -34,6 +34,7 @@ Algorithms are unambiguous specifications for performing calculation, data proce
   - [Atom](https://atom.io/)
   - Intellij
   - Vim
+  - Jupyter Notebook 
 
 - Language Version Managers
   - [asdf](https://asdf-vm.com/#/core-manage-asdf-vm)
