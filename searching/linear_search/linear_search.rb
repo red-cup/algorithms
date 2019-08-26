@@ -1,7 +1,15 @@
 require_relative('../helpers/array_builder.rb')
 
 def linear_search(array, item)
-  array.each_with_index { |element, idx| return idx if element == item}
+  iteration_count = 0
+  array.each_with_index do |element, idx| 
+    iteration_count += 1
+    if element == item
+      puts "# of iterations to find item index: #{iteration_count}" 
+      return idx 
+      
+    end
+    puts "# of iterations to find item index: #{iteration_count}" 
   return -1
 end
 
