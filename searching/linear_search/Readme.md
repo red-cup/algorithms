@@ -2,7 +2,10 @@
 
 There are many different forms of linear search algorithms. Each form has it's own benefits and drawbacks. The typical implementation of a linear search algorithm is as follows:
 
+Click [here](https://www.cs.usfca.edu/~galles/visualization/Search.html) An Excellent visualization of is process.
+
 - **Conditions:**
+
   - **Arguments**
     - Ordered or Unordered Collection (Array)
     - Element for which to search for

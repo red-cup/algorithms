@@ -4,25 +4,26 @@ Binary search search algorithms work in a very similar way to searching through 
 
 Click [here](https://www.cs.usfca.edu/~galles/visualization/Search.html) An Excellent visualization of is process.
 
-
-
 - **Conditions:**
+
   - **Arguments**
-    - Ordered or Unordered Collection (Array)
+    - Ordered Collection (Array)
     - Element for which to search for
   - **Rules:**
     - Both the searched collection and the element should share:
       - Datatype
-    - Collection can be infinite
+    - Collection cannot be infinite
 
 - **Psudo Code**
   - Given the arguments
-  - iterate through the collection
-    - for each item in the collection
-      - compare the item to the searched element
-        - if a match
-          - return the index of the searched element
-        - if no match
-          - continue the loop
-  - item not found
-    - return -1
+  - Capture the furthest left index
+  - Capture the middle index
+  - Capture the right index
+  - While
+    - If the middle element != the searched element
+    - And the left index is still less than the right index - if the searched element was less than the middle element - set the right index to be on less than the middle index - else set the left index to be one higher than the middle index
+      // complete while
+    - if the middle element is the searched element
+      - return the index of the searched element
+    - else
+      - return -1
